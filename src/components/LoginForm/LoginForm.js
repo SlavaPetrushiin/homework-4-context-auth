@@ -27,7 +27,7 @@ class LoginForm extends PureComponent {
     const { values } = this.state;
     this.setState({
       values: { ...values, [event.target.name]: event.target.value }
-    });
+		});
   };
 
   handleSubmit = () => {
